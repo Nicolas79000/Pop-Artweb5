@@ -1,0 +1,125 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF1493;
+    color: #ffffff;
+}
+
+header h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 48px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Sections principales */
+.about-section, .contact-section, .product-grid {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grille de produits */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Cartes produits */
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    color: #FF1493;
+}
+
+/* Contact form */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #FF6347;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #FF4500;
+}
+
+/* Ligne horizontale en bas du contenu */
+.bottom-line {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
